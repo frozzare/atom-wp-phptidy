@@ -9,6 +9,9 @@ On Mac:
 cmd-shift-l
 ```
 
-Windows and Linux isn't supported by default since I haven't test Atom on Windows or Linux. Feel free to contribute!
+It will override `editor:split-selections-into-lines`
 
-You can add it to your `keymap.cson` with the command `wp-phptidy:run`.
+# Other platforms 
+I haven't test this on other platforms so it only supports Mac for now. But you can add it to your `keymap.cson` with the command `wp-phptidy:run`.
+
+Feel free to contribute a solution!

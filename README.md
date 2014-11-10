@@ -1,6 +1,8 @@
 # Atom wp-phptidy package
 
-Atom package of a modified version of [wp-phptidy](https://github.com/scribu/wp-phptidy) script
+Atom package of a modified version of [wp-phptidy](https://github.com/scribu/wp-phptidy) script.
+
+This isn't publish on apm so install it with a git clone into `~/.atom/packages`.
 
 ## Usage
 

@@ -1,6 +1,6 @@
-# atom-wp-phptidy package
+# Atom wp-phptidy package
 
-Atom package of a modified version [wp-phptidy](https://github.com/scribu/wp-phptidy)
+Atom package of a modified version of [wp-phptidy](https://github.com/scribu/wp-phptidy) script
 
 ## Usage
 

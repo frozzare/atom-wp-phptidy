@@ -325,11 +325,11 @@ foreach ( $files as $file ) {
 		break;
 	case "replace":
 
-		$backupfile = dirname( $file ).( dirname( $file )?"/":"" ).".".basename( $file ).".phptidybak~";
-		if ( !copy( $file, $backupfile ) ) {
-			echo "Error: The file '".$backupfile."' could not be saved.\n";
-			exit( 1 );
-		}
+		# $backupfile = dirname( $file ).( dirname( $file )?"/":"" ).".".basename( $file ).".phptidybak~";
+		# if ( !copy( $file, $backupfile ) ) {
+		#	echo "Error: The file '".$backupfile."' could not be saved.\n";
+		#	exit( 1 );
+		# }
 		if ( !file_put_contents( $file, $source ) ) {
 			echo "Error: The file '".$file."' could not be overwritten.\n";
 			exit( 1 );

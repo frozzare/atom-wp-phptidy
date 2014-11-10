@@ -1,0 +1,14 @@
+{
+  "name": "wp-phptidy",
+  "main": "./lib/wp-phptidy",
+  "version": "0.0.0",
+  "description": "Atom package of a modified version wp-phptidy",
+  "activationCommands": {
+    "atom-workspace": "wp-phptidy:run"
+  },
+  "repository": "https://github.com/frozzare/atom-wp-phptidy",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}

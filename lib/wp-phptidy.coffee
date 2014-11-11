@@ -6,7 +6,10 @@ module.exports =
 	
 	run: ->
 		editor = atom.workspace.getActivePaneItem()
+		editor.save()
+
 		file = editor?.buffer.file
 		filepath = file?.path
+
 		if filepath.length
 		  child_process.exec(__dirname + '/../vendor/wp-phptidy.php replace ' + filepath)

@@ -17,3 +17,7 @@ It will override `editor:split-selections-into-lines`
 I haven't test this on other platforms so it only supports Mac for now. But you can add it to your `keymap.cson` with the command `wp-phptidy:run`.
 
 Feel free to contribute a solution!
+
+# License
+
+MIT © [Fredrik Forsmo](https://github.com/frozzare)

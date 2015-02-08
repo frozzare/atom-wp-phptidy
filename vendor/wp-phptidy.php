@@ -109,8 +109,6 @@ $indent = false; #1
 
 
 define( 'CONFIGFILE', dirname(__FILE__) . "/.wp-phptidy-config.php" );
-define( 'CACHEFILE', dirname(__FILE__) . "/.phptidy-cache" );
-
 
 error_reporting( E_ALL );
 
@@ -226,16 +224,10 @@ if ( $command=="files" ) {
 }
 
 // Read cache file
-if ( file_exists( CACHEFILE ) ) {
-	verbose( "Using cache file ".CACHEFILE."\n" );
-	$cache = unserialize( file_get_contents( CACHEFILE ) );
-	$cache_orig = $cache;
-} else {
-	$cache = array(
-		'md5sums' => array(),
-	);
-	$cache_orig = false;
-}
+$cache = array(
+	'md5sums' => array(),
+);
+$cache_orig = false;
 
 // Find functions and includes
 verbose( "Find functions and includes " );
@@ -363,12 +355,6 @@ foreach ( $files as $file ) {
 if ( $command=="replace" ) {
 	if ( $replaced ) {
 		verbose( "Replaced ".$replaced." files.\n" );
-	}
-	if ( $cache != $cache_orig ) {
-		verbose( "Write cache file ".CACHEFILE."\n" );
-		if ( !file_put_contents( CACHEFILE, serialize( $cache ) ) ) {
-			echo "Warning: The cache file '".CACHEFILE."' could not be saved.\n";
-		}
 	}
 }
 

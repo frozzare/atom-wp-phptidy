@@ -1028,6 +1028,12 @@ function fix_separation_whitespace( &$tokens ) {
 
 	foreach ( $tokens as $key => &$token ) {
 		if ( is_string( $token ) ) {
+			if ($token === '!' && isset($tokens[$key+1]) && $tokens[$key+1][0] != T_WHITESPACE) {
+				array_splice( $tokens, $key+1, 0, array(
+					array( T_WHITESPACE, separation_whitespace( $control_structure ) )
+				) );
+				continue;
+			}
 
 			// Exactly 1 space or a newline between closing round bracket and opening curly bracket
 			if ( $tokens[$key] === ")" ) {

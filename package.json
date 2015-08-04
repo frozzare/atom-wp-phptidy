@@ -1,7 +1,7 @@
 {
   "name": "wp-phptidy",
   "main": "./lib/wp-phptidy",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Atom package of a modified version of wp-phptidy script",
   "activationCommands": {
     "atom-workspace": "wp-phptidy:run"

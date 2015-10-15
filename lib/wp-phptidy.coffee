@@ -12,4 +12,4 @@ module.exports =
 		filepath = file?.path
 
 		if filepath.length
-		  child_process.exec(__dirname + '/../vendor/wp-phptidy.php replace ' + filepath)
+		  child_process.exec('php ' + __dirname + '/../vendor/wp-phptidy.php replace ' + filepath)

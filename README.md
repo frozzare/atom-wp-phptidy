@@ -21,7 +21,7 @@ It will override `editor:split-selections-into-lines`
 
 # Other platforms
 
-This has been tested on OS X and Windows, see [issue #9](https://github.com/frozzare/atom-wp-phptidy/pull/1).
+This has been tested on OS X and Windows, see [pull request #1](https://github.com/frozzare/atom-wp-phptidy/pull/1).
 
 Feel free to contribute a solution!
 

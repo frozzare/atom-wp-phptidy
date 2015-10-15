@@ -6,15 +6,16 @@ Atom package of a modified version of [wp-phptidy](https://github.com/scribu/wp-
 
 ## Usage
 
-On Mac:
+On OS X/Windows:
 ```
 cmd-shift-l
 ```
 
 It will override `editor:split-selections-into-lines`
 
-# Other platforms 
-I haven't test this on other platforms so it only supports Mac for now. But you can add it to your `keymap.cson` with the command `wp-phptidy:run`.
+# Other platforms
+
+This has been tested on OS X and Windows, see [issue #9](https://github.com/frozzare/atom-wp-phptidy/pull/1).
 
 Feel free to contribute a solution!
 

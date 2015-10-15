@@ -12,9 +12,16 @@ or git clone into `~/.atom/packages`
 
 ## Usage
 
-On OS X/Windows:
+On OS X:
+
 ```
 cmd-shift-l
+```
+
+On Windows:
+
+```
+ctrl-alt-l
 ```
 
 It will override `editor:split-selections-into-lines`

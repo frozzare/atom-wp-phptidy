@@ -4,4 +4,4 @@ Added Windows support, see [pull request #1](https://github.com/frozzare/atom-wp
 
 ## 1.0.0 - 2015-08-04
 
-First Release
+First release.

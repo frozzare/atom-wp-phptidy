@@ -18,13 +18,13 @@ On OS X:
 cmd-shift-l
 ```
 
+It will override `editor:split-selections-into-lines`
+
 On Windows:
 
 ```
 ctrl-alt-l
 ```
-
-It will override `editor:split-selections-into-lines`
 
 # Other platforms
 

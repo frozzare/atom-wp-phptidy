@@ -1,1 +1,7 @@
-## 0.1.0 - First Release
+## 1.1.0 - 2015-10-15
+
+Added Windows support, see [pull request #1](https://github.com/frozzare/atom-wp-phptidy/pull/1). Thanks [@daveross](https://github.com/daveross)!
+
+## 1.0.0 - 2015-08-04
+
+First Release

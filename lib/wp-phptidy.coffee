@@ -23,6 +23,6 @@ module.exports =
 				);
 				
 			else
-		  		child_process.exec('php ' + __dirname + '/../vendor/wp-phptidy.php replace ' + filepath)
+		  		child_process.exec(__dirname + '/../vendor/wp-phptidy.php replace ' + filepath)
 
 

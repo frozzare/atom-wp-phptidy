@@ -10,3 +10,6 @@
 
 'atom-workspace atom-text-editor:not(.mini)':
   'cmd-L': 'wp-phptidy:run'
+
+'.platform-win32 atom-workspace atom-text-editor:not(.mini)':
+  'ctrl-alt-l': 'wp-phptidy:run'
